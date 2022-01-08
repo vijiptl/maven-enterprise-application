@@ -24,5 +24,22 @@
             <type>war</type>
         </dependency>
     </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Java Enterprise Releases Nexus Repository</name>
+	      <url>http://13.127.26.25:9980/vijiptl/repository/Java-Enterprise-ear-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Java Enterprise Snapshot Nexus Repository </name>
+	      <url>http://13.127.26.25:9980/vijiptl/repository/Java-Enterprise-.ear-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+  
+  
 </project>
 
